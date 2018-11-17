@@ -1,0 +1,30 @@
+{
+  "name": "bchain-playground",
+  "version": "1.0.0",
+  "description": "Learning BlockChain by programming one in javascript ( source: udemy course, Learn Blockchain By Building Your Own In JavaScript by Eric Traub)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src -e js src/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anatolieGhebea/bchain-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anatolieGhebea/bchain-playground/issues"
+  },
+  "homepage": "https://github.com/anatolieGhebea/bchain-playground#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
