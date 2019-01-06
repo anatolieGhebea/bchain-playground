@@ -71,7 +71,7 @@ app.get('/mine', function(req, res){
         transactions: bcoin.pendingTransactions,
         index: lastBlock['index'] + 1
     }
-
+//TODO broadcast /mine
     const nonce = bcoin.proofOfWork(previousBlockHash, currentData);
     const bHash = bcoin.hashBlock(previousBlockHash, currentData, nonce);
 
