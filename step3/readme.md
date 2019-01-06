@@ -1,3 +1,3 @@
-In this step we are going add the following methods and relative test cases
+In this step we are going to add the following methods and relative test cases
 
 hashBlock()
